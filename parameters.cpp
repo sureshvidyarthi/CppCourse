@@ -2,19 +2,18 @@
 // {
 
 // }
-
+// Default parameter
+// yadi parameter ke sath hi argumenr pass krate hai to us parameter ko default parameter kahte hai!
 #include <iostream>
 #include <string>
 using namespace std;
 
-void myFunction(int x)
+void myFunction(int x = 1, int y = 3) // Default parameters
 {
-    cout << x << endl;
+    cout << x + y << endl;
 }
 int main()
 {
-    myFunction(1);
-    myFunction(2);
-    myFunction(3);
+    myFunction(); //1,3- Argument
     return 0;
 }
