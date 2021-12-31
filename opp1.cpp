@@ -6,8 +6,14 @@
 //2. Access specifier - public
 //3. Attributes- variables
 
-class MyClass
+class MyCar
 {              // class
 public:        // Access Specifier
     int myInt; // int variable
 };
+
+int main()
+{
+    MyCar myAudi;
+    return 0;
+}
