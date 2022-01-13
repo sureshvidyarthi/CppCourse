@@ -8,9 +8,9 @@
 #include <iostream>
 using namespace std;
 
-void myName()
+void myName() // function declaration
 {
-    cout << "Hello World!" << endl;
+    cout << "Hello World!" << endl; // function defintion
 }
 
 int main()
